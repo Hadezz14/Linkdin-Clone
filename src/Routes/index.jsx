@@ -23,6 +23,10 @@ export const router = createBrowserRouter([
     element: <ProfileLayout />,
   },
   {
+    path: "/profile",
+    element: <ProfileLayout />,
+  },
+  {
     path: "/connections",
     element: <ConnectionLayout />,
   },
